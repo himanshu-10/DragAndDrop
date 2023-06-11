@@ -1,0 +1,105 @@
+.allcards{
+    display: flex;
+}
+
+.Project-name{
+    margin-left: 40%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* first card */
+.first-card-drag{
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 100px;
+    margin-left: 20%;
+}
+
+
+.first-card-drag #box-1 {
+    width: 300px;
+    height: 170px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    margin-left: 40%;
+    height: 200px;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.btn-1{
+    margin-left: 50%;
+    margin-top: 3%;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+    border: 1px solid #aaaaaa;
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.images img{
+    margin-left: 40%;
+    width: 300px;
+    height: 170px;
+    transition: all 1.2s ease-in-out;
+    border: 1px solid white;
+    margin-top: 10%;
+}
+.images img:hover{
+    transform: scale(1.2);
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+
+  }
+
+
+
+/* start text/second card */
+
+.second-card-drag{
+    width: 200px;
+    height: 100px;
+    margin-left: 10%;
+
+}
+.second-card-drag #box-2{
+    width: 300px;
+    height: 170px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    margin-left: 40%;
+    height: 200px;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  
+  }
+.second-card-drag .text{
+    margin-left: 50%;
+    width: 400px;
+    height: 30px;
+    
+
+}
+.second-card-drag .text p{
+    text-shadow: 2px 2px #8d8686;
+    font-size: 30px;
+   
+    font-weight: bold;
+    transition: all 1.2s  ease-in;
+    -webkit-transition: rgb(230, 11, 128) 1s; /* For Safari 3.0 to 6.0 */
+    transition: rgb(123, 158, 35) 1s; /* For modern browsers */
+
+}
+.second-card-drag .text p:hover{
+    transform: scale(1.4);
+    color: #ff0066;
+    
+   
+}
+
+
+
+
+ 
+  
+ 
+ 

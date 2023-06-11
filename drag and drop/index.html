@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Drag and Drop Demo</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+
+
+    
+
+<p class="Project-name">Drag And Drop Images</p>
+
+<div class="allcards">
+
+    <div class="first-card-drag">
+
+<div id="box-1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<Button class="btn-1" id="btn-1" onClick="window.location.reload()">Reset</Button>
+<br>
+<div class="images">
+    <img id="drag1" src="https://images.pexels.com/photos/14394469/pexels-photo-14394469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" draggable="true" ondragstart="drag(event)" width="300px" height="200px">
+</div>
+</div>
+
+<!-- for text -->
+
+<div class="second-card-drag">
+<div id="box-2" ondrop="drop(event)" ondragover="allowtextDrop(event)"></div>
+<Button class="btn-1" id="btn-2" onClick="window.location.reload()">Reset</Button>
+<br>
+<div class="text">
+    <p id="drag2"  draggable="true" ondragstart="dragtext(event)" style="font-size: 30px; text-shadow: 2px 2px #8d8686; color: #ff0066;">Drag Me</p>
+</div>
+</div>
+
+</div>
+
+<!-- javascript -->
+
+<script src="app.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
